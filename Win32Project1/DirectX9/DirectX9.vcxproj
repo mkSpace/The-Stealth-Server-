@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DirectX9\Server\ConnectedUser.cpp" />
+    <ClCompile Include="..\DirectX9\Server\HostUdpIocp.cpp" />
+    <ClCompile Include="..\DirectX9\Server\Lock.cpp" />
+    <ClCompile Include="..\DirectX9\Server\ServerManager.cpp" />
+    <ClCompile Include="..\DirectX9\Server\TCPManager.cpp" />
+    <ClCompile Include="..\DirectX9\Server\TCPReader.cpp" />
+    <ClCompile Include="..\DirectX9\Server\Thread.cpp" />
+    <ClCompile Include="..\DirectX9\Server\UserUdpIocp.cpp" />
+    <ClCompile Include="Automata.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ChatForm.cpp" />
+    <ClCompile Include="CodeTable.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="DiffuseShader.cpp" />
+    <ClCompile Include="DirectX9.cpp" />
+    <ClCompile Include="DirectX9Main.cpp" />
+    <ClCompile Include="DxObject.cpp" />
+    <ClCompile Include="DxObject2D.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="HPForm.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageAnimation.cpp" />
+    <ClCompile Include="InGameScene.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Jet.cpp" />
+    <ClCompile Include="KeyButton.cpp" />
+    <ClCompile Include="KeyTable.cpp" />
+    <ClCompile Include="KillDeathInfo.cpp" />
+    <ClCompile Include="KillLog.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Listener.cpp" />
+    <ClCompile Include="LobbyScene.cpp" />
+    <ClCompile Include="LoginScene.cpp" />
+    <ClCompile Include="MakeRoomAlert.cpp" />
+    <ClCompile Include="Missile.cpp" />
+    <ClCompile Include="MissileManager.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="MyJet.cpp" />
+    <ClCompile Include="NicknameScene.cpp" />
+    <ClCompile Include="OtherBulletManager.cpp" />
+    <ClCompile Include="Raider.cpp" />
+    <ClCompile Include="ResultInfo.cpp" />
+    <ClCompile Include="ResultScene.cpp" />
+    <ClCompile Include="RoomButton.cpp" />
+    <ClCompile Include="RoomScene.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScoreForm.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="Slot.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SpecularShader.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="TextBox.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="TextureShader.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Trail.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="WaterShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DirectX9\Server\ConnectedUser.h" />
+    <ClInclude Include="..\DirectX9\Server\HostUdpIocp.h" />
+    <ClInclude Include="..\DirectX9\Server\Lock.h" />
+    <ClInclude Include="..\DirectX9\Server\ServerManager.h" />
+    <ClInclude Include="..\DirectX9\Server\Singleton.h" />
+    <ClInclude Include="..\DirectX9\Server\TCPManager.h" />
+    <ClInclude Include="..\DirectX9\Server\TcpProtocol.h" />
+    <ClInclude Include="..\DirectX9\Server\TCPReader.h" />
+    <ClInclude Include="..\DirectX9\Server\TCP_ReadPacket.h" />
+    <ClInclude Include="..\DirectX9\Server\TCP_Structure.h" />
+    <ClInclude Include="..\DirectX9\Server\TCP_WritePacket.h" />
+    <ClInclude Include="..\DirectX9\Server\Thread.h" />
+    <ClInclude Include="..\DirectX9\Server\Type.h" />
+    <ClInclude Include="..\DirectX9\Server\UdpProtocol.h" />
+    <ClInclude Include="..\DirectX9\Server\UDP_ReadPacket.h" />
+    <ClInclude Include="..\DirectX9\Server\UDP_Structure.h" />
+    <ClInclude Include="..\DirectX9\Server\UDP_WritePacket.h" />
+    <ClInclude Include="..\DirectX9\Server\UserSession.h" />
+    <ClInclude Include="..\DirectX9\Server\UserUdpIocp.h" />
+    <ClInclude Include="..\DirectX9\Server\Util.h" />
+    <ClInclude Include="Automata.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ChatForm.h" />
+    <ClInclude Include="CodeTable.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="Def.h" />
+    <ClInclude Include="DiffuseShader.h" />
+    <ClInclude Include="DirectX9.h" />
+    <ClInclude Include="DxObject.h" />
+    <ClInclude Include="DxObject2D.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="HPForm.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageAnimation.h" />
+    <ClInclude Include="InGameScene.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Jet.h" />
+    <ClInclude Include="KeyButton.h" />
+    <ClInclude Include="KeyTable.h" />
+    <ClInclude Include="KillDeathInfo.h" />
+    <ClInclude Include="KillLog.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Listener.h" />
+    <ClInclude Include="LobbyScene.h" />
+    <ClInclude Include="LoginScene.h" />
+    <ClInclude Include="MakeRoomAlert.h" />
+    <ClInclude Include="Missile.h" />
+    <ClInclude Include="MissileManager.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="MyJet.h" />
+    <ClInclude Include="NicknameScene.h" />
+    <ClInclude Include="OtherBulletManager.h" />
+    <ClInclude Include="Raider.h" />
+    <ClInclude Include="ResultInfo.h" />
+    <ClInclude Include="ResultScene.h" />
+    <ClInclude Include="RoomButton.h" />
+    <ClInclude Include="RoomScene.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScoreForm.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="Slot.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SpecularShader.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="TextBox.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TextureShader.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Trail.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="WaterShader.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB21BD2F-896C-4E22-B5CD-528776BE1890}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DirectX9</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>DirectX9</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libs\directx\Include;$(SolutionDir)libs\sound\inc;$(SolutionDir)libs\DXUT\Core;$(SolutionDir)libs\DXUT\Optional;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libs\directx\Lib\x86;$(SolutionDir)libs\sound\lib;$(SolutionDir)libs\DXUT\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;Mswsock.lib;../LowLib/Debug/LowLib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

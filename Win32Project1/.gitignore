@@ -1,0 +1,8 @@
+./ipch/*
+./Debug/*
+./Backup/*
+./libs/*
+./.vs/*
+*.sln
+*.lib
+*.obj
