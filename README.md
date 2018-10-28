@@ -18,4 +18,4 @@
   - Language : C++
   - SQL : MS-SQL
   - Server : Windows Server
-  - Using Lib : DirectX9, FMODEX 
+  - Using Lib : DirectX9, FMODEX, LowLib
